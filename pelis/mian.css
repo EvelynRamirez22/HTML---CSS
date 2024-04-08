@@ -1,0 +1,41 @@
+.alineamientoDeTexto { 
+    text-align: center;
+    color:white;
+}
+
+.fondoPagina{
+    background-image:url("./fotosPelis/fondo.jpg");
+}
+
+.grilla{
+    display: grid;
+    /*grid-template-columns: 250px 250px 250px; */
+    /*Como generar disposicion basica de las columnas de una grilla*/
+    /*grid-template-columns: repeat(3,250px);*/
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    /*grid-template-rows: 350px;*/
+    grid-auto-rows: auto;
+    gap: 20px;
+}
+
+.fotoDinamica{
+    width: 100%;
+    aspect-ratio: 6 / 10; /*puede ser opcional, le da estructura a la foto si es widescreen o si es tipo retrato*/
+    object-fit: cover;
+    border-radius: 25px;
+    background-color: rgb(83, 31, 107);
+
+}
+
+.alineamientoDeTitulo { 
+    text-align: center;
+    color:rgb(250, 245, 245);
+    background-color: rgb(83, 31, 107);
+    border-radius: 25px;
+}
+
+.alineadoFoto{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

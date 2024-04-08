@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    <link rel="stylesheet" href="mian.css"/>
+    <title>Peliculas</title>
+</head>
+<body class="fondoPagina">
+    <header>
+        <h1 class="alineamientoDeTexto">Encuentra la pelicula que estas buscando </h1>
+        <div class="alineamientoDeTexto">
+            <input type="text" placeholder="Encanto,Luca, Wish,etc.."/>
+            <button>Buscar</button>
+        </div>
+    </header>
+    <main class="grilla">
+        <div>
+            <h3 class="alineamientoDeTitulo">Mansion Embrujada</h3>
+            <img class="fotoDinamica" src="fotosDePelis/peli1.jpeg" alt="fotoGrilla"/>
+        </div>
+
+        <div>
+            <h3 class="alineamientoDeTitulo"> Brave (Indomable)</h3>
+            <img class="fotoDinamica" src="fotosDePelis/peli2.jpg" alt="fotoGrilla"/>
+        </div>
+
+        <div>
+            <h3 class="alineamientoDeTitulo"> Wish</h3>
+            <img class="fotoDinamica" src="fotosDePelis/peli3.jpeg" alt="fotoGrilla"/>
+        </div>
+        
+    </main>
