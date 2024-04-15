@@ -1,0 +1,39 @@
+.alineadoTexto{
+    display:flex;
+    justify-content: center;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-auto-rows: 300px;
+}
+
+.alineado2{
+    display: flex;
+    justify-content: left;
+}
+
+.alineado3{
+    display: flex;
+    align-items: flex-end;
+}
+
+.espacio{
+        display: grid;
+        gap: 20px;
+}
+
+.nuevaClase{
+    display: grid;
+    grid-template-rows: 150px 250px 350px;
+    grid-template-columns: 50px 100px 250px;
+}
+.fotoDinamica{
+    width: 50%;
+    aspect-ratio: 1 / 1; /*puede ser opcional, le da estructura a la foto si es widescreen o si es tipo retrato*/
+    object-fit: cover;
+    border-radius: 25px;
+    
+}
+

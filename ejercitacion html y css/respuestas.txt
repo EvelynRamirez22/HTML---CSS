@@ -1,0 +1,16 @@
+Respuestas.
+1. La propiedad que se utiliza para cambiar el comportamiento de los elementos es '  display: flex;'
+
+2. La propiedad que te permite definir el espacio entre los elementos es  'gap:'
+
+3.Si bien ambos centran nustro contenedor flex, la diferencia es que el 'align-items' lo hace de manera
+vertical, mientras que 'justify-content' lo hace de manera horizontal.
+
+4. La propiedad que se utiliza para definir el tamaño de las columnas en un contenedor
+grid es 'grid-template-columns:' y para definir el tamaño de las filas es 'grid-auto-rows:'
+
+5.  La principal diferencia es que con 'display: grid' se pueden colocal elementos en dos dimensiones tanto 
+columnas y filas a la vez, mientras que con 'display: flex' solo se puede manejar una dimensión, es decir, 
+tenes que elegir entre filas o columnas.
+
+6. Se alinean utilizando la propiedad  'justify-content:', o 'text-align:'
