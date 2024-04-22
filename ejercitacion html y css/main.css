@@ -1,6 +1,12 @@
 .alineadoTexto{
     display:flex;
-    justify-content: center;
+    justify-content:center;
+
+}
+
+
+.texto{
+    display:flex;
 }
 
 .grilla{
@@ -30,10 +36,13 @@
     grid-template-columns: 50px 100px 250px;
 }
 .fotoDinamica{
-    width: 50%;
+    width: 65%;
     aspect-ratio: 1 / 1; /*puede ser opcional, le da estructura a la foto si es widescreen o si es tipo retrato*/
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 50px;
+    background-color: rgb(24, 27, 236);
+    justify-content: center;
+
     
 }
 
