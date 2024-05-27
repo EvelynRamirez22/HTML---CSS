@@ -1,0 +1,34 @@
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-auto-rows: 300px;
+}
+
+.fotoDinamica{
+    width: 25%;
+    aspect-ratio: 1 / 1; /*puede ser opcional, le da estructura a la foto si es widescreen o si es tipo retrato*/
+    object-fit: cover;
+    border-radius: 300px;
+    justify-content: center;
+}
+
+.alineamiento{
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    color:blueviolet;
+    font-style: italic;
+    font-size: larger;
+}
+
+.lista{
+    background-color: rgb(203, 92, 236);
+    border: 2px solid rgb(3, 3, 3);
+    margin: 45px;
+    padding: 25px;
+}
+.fondoPagina {
+    background-image: url("brillo.jpg");
+}
