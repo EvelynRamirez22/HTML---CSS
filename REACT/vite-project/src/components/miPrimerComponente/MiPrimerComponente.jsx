@@ -1,8 +1,11 @@
-export function miPrimerComponente({lastName,name}){
+import { Estado } from "./estado/Estado";
+
+export function MiPrimerComponente({lastName,name}){
     return(
         <>
-        Mi nombre es Evelyn 
+        {lastName} {name}
         <img src="./imgs/fotos.jpg" alt=""/>
+        <Estado/>
         </>
     )
 }

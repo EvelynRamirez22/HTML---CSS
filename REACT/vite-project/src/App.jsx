@@ -1,14 +1,13 @@
-import { miPrimerComponente } from "./components/miPrimerComponente/MiPrimerComponente"
-
-const myFuction = () => {
+import { MiPrimerComponente } from "./components/miPrimerComponente/MiPrimerComponente"
+const MyFuction = () => {
   return <>hola</>
 };
 
 function App() {
   return(
     <>
-    <myFuction/>
-    <miPrimerComponente name={"Evelyn"}lastName={"Ramirez"}/>
+    <MyFuction/>
+    <MiPrimerComponente name={"Evelyn"} lastName={"Ramirez"}/>
     </> 
 
   )
