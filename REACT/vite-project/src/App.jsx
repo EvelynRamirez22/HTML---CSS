@@ -1,16 +1,19 @@
-import { MiPrimerComponente } from "./components/miPrimerComponente/MiPrimerComponente"
+import GetPosts from "./components/GetPosts";
+import { MiPrimerComponente } from "./components/miPrimerComponente/MiPrimerComponente";
+import Ricky from "./components/miPrimerComponente/Ricky";
+
 const MyFuction = () => {
-  return <>hola</>
+  return <>hola</>;
 };
 
 function App() {
-  return(
+  return (
     <>
-    <MyFuction/>
-    <MiPrimerComponente name={"Evelyn"} lastName={"Ramirez"}/>
-    </> 
-
-  )
- 
+      <MyFuction />
+      <MiPrimerComponente name={"Evelyn"} lastName={"Ramirez"} />
+      <GetPosts />
+      <Ricky />
+    </>
+  );
 }
 export default App;
