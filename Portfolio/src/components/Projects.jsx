@@ -10,7 +10,9 @@ const Project = ({ title, description }) => (
 const Projects = () => {
   const projectList = [
     { title: "Proyecto 1", description: "Descripción del proyecto 1" },
+
     { title: "Proyecto 2", description: "Descripción del proyecto 2" },
+
     { title: "Proyecto 3", description: "Descripción del proyecto 3" },
   ];
 

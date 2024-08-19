@@ -5,8 +5,8 @@ body {
 }
 
 header {
-  background: #e77dd6;
-  color: #fff;
+  background: #e27feb;
+  color: #030303;
   padding: 1rem;
   text-align: center;
 }
@@ -22,7 +22,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #080808;
   text-decoration: none;
 }
 
@@ -86,6 +86,28 @@ form button:hover {
 
 .contact a:hover {
   text-decoration: underline;
+}
+
+.sobre-mi {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.sobre-mi .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sobre-mi h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sobre-mi p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 /*#root {

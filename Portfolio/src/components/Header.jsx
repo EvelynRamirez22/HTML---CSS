@@ -12,6 +12,9 @@ const Header = () => {
           <li>
             <a href="#contact">Contacto</a>
           </li>
+          <li>
+            <a href="#sobre-mi">Sobre Mi</a>
+          </li>
         </ul>
       </nav>
     </header>
